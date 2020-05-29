@@ -18,7 +18,7 @@ def found_dist(dist, number):
     for i in range(len(dist) - 1):
         count = count + 1
         if(dist[i] <= number and number <= dist[i+1]):
-            break;
+            break
             
     return count
     
