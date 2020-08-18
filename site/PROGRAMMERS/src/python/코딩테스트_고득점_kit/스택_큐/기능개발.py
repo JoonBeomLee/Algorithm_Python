@@ -17,6 +17,6 @@ def solution(progresses, speeds):
                 done_count += 1
                 
         if done_count:
-            answer.append(done_count)
+            answer.append(done_count) 
             
     return answer
