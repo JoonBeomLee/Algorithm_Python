@@ -32,16 +32,19 @@ def dfs_queen():
                     print(f'queen pos : board[{i}][{j}]')
                     put_queen(i, j, board)
                     count += 1
+        print(board)
         print(f'======== check_board end count :: {count} ========\n\n')
         return count
     
     def check_grid():
         total_count = 0
+        tmp_count = 0
         
         for grid_x in range(N):
             for grid_y in range(N):
                 grid[grid_x][grid_y] = False
-                total_count += check_board(grid_x, grid_y)
+                tmp_count = check_board(grid_x, grid_y)
+                if tmp_count == N: total_count += 1
         
         return total_count
     
