@@ -9,7 +9,20 @@ def validation_board(row):
     
     return True
 
-def N_Queen(row=-1):
+def NQueen_v2(row = 0):
+    global queen_count
+    
+    for i in range(N):
+        board[row] = i
+        
+        if validation_board(row):
+            if row == N - 1:
+                print(board)
+                queen_count += 1
+            else:
+                NQueen_v2(row+1)
+
+def NQueen_v1(row=-1):
     global queen_count
     
     if validation_board(row):
@@ -19,7 +32,7 @@ def N_Queen(row=-1):
         else:
             for i in range(N):
                 board[row + 1] = i
-                N_Queen(row+1)
-
-N_Queen()
-print(queen_count)
+                NQueen_v1(row+1)
+                
+NQueen_v2()
+print(queen_count)                
