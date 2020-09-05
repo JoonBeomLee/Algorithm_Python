@@ -8,4 +8,4 @@ def solution(participant, completion):
             answer = participant[idx]
             return answer
                     
-    return participant[-1]
+    return participant[-1] 
