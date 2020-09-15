@@ -13,3 +13,10 @@
 [[전화번호목록]](./python/코딩테스트_고득점_kit/해시/전화번호목록.py) 
 [[위장]](./python/코딩테스트_고득점_kit/해시/위장.py) 
 [[베스트앨범]](./python/코딩테스트_고득점_kit/해시/베스트앨범.py) 
+
+2. [[스택/큐]](https://programmers.co.kr/learn/courses/30/parts/12081) 
+LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.  
+      
+> 문제 : [[주식가격]](https://programmers.co.kr/learn/courses/30/lessons/42584) 
+>   
+> 풀이 : [[주식가격]](.python/코딩테스트_고득점_kit/스택_큐/주식가격.py)
