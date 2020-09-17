@@ -18,5 +18,7 @@
 LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.  
       
 > 문제 : [[주식가격]](https://programmers.co.kr/learn/courses/30/lessons/42584) 
+[[기능개발]](https://programmers.co.kr/learn/courses/30/lessons/42586) 
 >   
 > 풀이 : [[주식가격]](.python/코딩테스트_고득점_kit/스택_큐/주식가격.py)
+[[기능개발]](.python/코딩테스트_고득점_kit/스택_큐/기능개발.py)
