@@ -22,4 +22,4 @@ def solution(progresses, speeds):
         if done_count:
             answer.append(done_count)
     
-    return answer
+    return answer 
