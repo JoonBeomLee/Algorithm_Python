@@ -1,25 +1,25 @@
+
 def solution(progresses, speeds):
     answer = []
-    job_scheduler = [x for x in progresses]
+    jobs_day = []
+    
+    for prog, speed in zip(progresses, speeds):
+        work_time = (100 - prog) // speed
         
-    print(job_scheduler)
+        # 소수점으로 작업이 남을경우 + 1day
+        if (100 - prog) % speed > 0: work_time += 1
+        jobs_day.append(work_time)
     
-    """"""
-    while True:
-        # 처리할 작업이 없을경우 종료
-        if not job_scheduler: break
+    for d_idx, day in enumerate(jobs_day):
+        if d_idx == 0: 
+            max_time = day
+            answer.append(1)
+            continue
             
-        print(progresses)
+        # max보다 적을경우 이전값 +1
+        if day <= max_time: answer[-1] += 1
+        else:
+            max_time = day
+            answer.append(1)
             
-        done_count = 0
-        for p_idx in range(len(progresses)):
-            job_scheduler[p_idx] += speeds[p_idx]
-            
-            if job_scheduler[p_idx] >= 100: 
-                del(job_scheduler[p_idx])
-                done_count += 1
-                
-        if done_count:
-            answer.append(done_count)
-    
-    return answer 
+    return answer
