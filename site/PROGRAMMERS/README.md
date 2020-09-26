@@ -30,7 +30,9 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 
 # [[단계별 문제풀이]](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-1. [[skill_01]]   
+1. [[skill_01]](https://programmers.co.kr/learn/challenges)
 > 문제: [[두개뽑아서더하기]](https://programmers.co.kr/learn/courses/30/lessons/68644)  
+[[모의고사]](https://programmers.co.kr/learn/courses/30/lessons/68644)
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py)
+[[모의고사]](./src/python/스킬테스트/level01/모의고사.py)  
