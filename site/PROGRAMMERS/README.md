@@ -1,4 +1,4 @@
-## 백준 (BAEKJOON) 알고리즘
+## 프로그래머스 (PROGRAMMERS) 알고리즘
 # [[코딩테스트 고득점 kit]](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
 
 1. [[해시]](https://programmers.co.kr/learn/courses/30/parts/12077)   
@@ -9,12 +9,12 @@
 [[위장]](https://programmers.co.kr/learn/courses/30/lessons/42578) 
 [[베스트앨범]](https://programmers.co.kr/learn/courses/30/lessons/42579) 
 >   
-> 풀이 : [[완주하지 못한 선수]](./python/코딩테스트_고득점_kit/해시/완주하지못한선수.py) 
-[[전화번호목록]](./python/코딩테스트_고득점_kit/해시/전화번호목록.py) 
-[[위장]](./python/코딩테스트_고득점_kit/해시/위장.py) 
-[[베스트앨범]](./python/코딩테스트_고득점_kit/해시/베스트앨범.py) 
+> 풀이 : [[완주하지 못한 선수]](./src//python/코딩테스트_고득점_kit/해시/완주하지못한선수.py) 
+[[전화번호목록]](./src//python/코딩테스트_고득점_kit/해시/전화번호목록.py) 
+[[위장]](./src//python/코딩테스트_고득점_kit/해시/위장.py) 
+[[베스트앨범]](./src//python/코딩테스트_고득점_kit/해시/베스트앨범.py) 
 
-2. [[스택/큐]](https://programmers.co.kr/learn/courses/30/parts/12081) 
+2. [[스택/큐]](https://programmers.co.kr/learn/courses/30/parts/12081)   
 LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.  
       
 > 문제 : [[주식가격]](https://programmers.co.kr/learn/courses/30/lessons/42584) 
@@ -22,18 +22,18 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[다리를지나는트럭]](https://programmers.co.kr/learn/courses/30/lessons/42583) 
 [[프린터]](https://programmers.co.kr/learn/courses/30/lessons/42587)
 >   
-> 풀이 : [[주식가격]](.python/코딩테스트_고득점_kit/스택_큐/주식가격.py)
-[[기능개발]](.python/코딩테스트_고득점_kit/스택_큐/기능개발.py)
-[[다리를지나는트럭]](.python/코딩테스트_고득점_kit/스택_큐/다리를지나는트럭.py)
-[[프린터]](.python/코딩테스트_고득점_kit/스택_큐/프린터.py)
+> 풀이 : [[주식가격]](./src/python/코딩테스트_고득점_kit/스택_큐/주식가격.py)
+[[기능개발]](./src/python/코딩테스트_고득점_kit/스택_큐/기능개발.py)
+[[다리를지나는트럭]](./src/python/코딩테스트_고득점_kit/스택_큐/다리를지나는트럭.py)
+[[프린터]](./src/python/코딩테스트_고득점_kit/스택_큐/프린터.py)
 
 
 # [[단계별 문제풀이]](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 1. [[skill_01]](https://programmers.co.kr/learn/challenges)
-> 문제: [[두개뽑아서더하기]](https://programmers.co.kr/learn/courses/30/lessons/68644)  
-[[모의고사]](https://programmers.co.kr/learn/courses/30/lessons/42840)
-[[체육복]](https://programmers.co.kr/learn/courses/30/lessons/42862)
+> 문제: [[두개뽑아서더하기]](https://programmers.co.kr/learn/courses/30/lessons/68644) 
+[[모의고사]](https://programmers.co.kr/learn/courses/30/lessons/42840) 
+[[체육복]](https://programmers.co.kr/learn/courses/30/lessons/42862) 
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py)
-[[모의고사]](./src/python/스킬테스트/level01/모의고사.py)  
+[[모의고사]](./src/python/스킬테스트/level01/모의고사.py)
