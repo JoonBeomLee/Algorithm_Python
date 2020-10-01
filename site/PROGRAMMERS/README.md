@@ -35,8 +35,10 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[모의고사]](https://programmers.co.kr/learn/courses/30/lessons/42840) 
 [[체육복]](https://programmers.co.kr/learn/courses/30/lessons/42862) 
 [[K번째수]](https://programmers.co.kr/learn/courses/30/lessons/42748) 
+[[가운데글자가져오기]](https://programmers.co.kr/learn/courses/30/lessons/12903) 
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py) 
 [[모의고사]](./src/python/스킬테스트/level01/모의고사.py) 
 [[체육복]](./src/python/스킬테스트/level01/체육복.py) 
 [[K번째수]](./src/python/스킬테스트/level01/K번째수.py) 
+[[가운데글자가져오기]](./src/python/스킬테스트/level01/가운데글자가져오기.py) 
