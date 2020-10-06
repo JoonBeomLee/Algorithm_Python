@@ -41,6 +41,7 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[같은숫자는싫어]](https://programmers.co.kr/learn/courses/30/lessons/12906) 
 [[나누어떨어지는숫자배열]](https://programmers.co.kr/learn/courses/30/lessons/12910) 
 [[두정수사이의합]](https://programmers.co.kr/learn/courses/30/lessons/12912)
+[[문자열내마음대로정렬하기]](https://programmers.co.kr/learn/courses/30/lessons/12915) 
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py) 
 [[완주하지못한선수]](./src/python/스킬테스트/level01/모의고사.py) 
@@ -51,4 +52,5 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 
 [[같은숫자는싫어]](./src/python/스킬테스트/level01/같은숫자는싫어.py) 
 [[나누어떨어지는숫자배열]](./src/python/스킬테스트/level01/나누어떨어지는숫자배열.py) 
-[[두정수사이의합]](./src/python/스킬테스트/level01/두정수사이의합.py)
+[[두정수사이의합]](./src/python/스킬테스트/level01/두정수사이의합.py) 
+[[문자열내마음대로정렬하기]](./src/python/스킬테스트/level01/문자열내마음대로정렬하기.py) 
