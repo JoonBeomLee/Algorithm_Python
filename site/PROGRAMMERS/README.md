@@ -45,6 +45,7 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[문자열내p와y의개수]](https://programmers.co.kr/learn/courses/30/lessons/12916)    
 
 [[문자열내림차순으로배치하기]](https://programmers.co.kr/learn/courses/30/lessons/12917) 
+[[문자열다루기기본]](https://programmers.co.kr/learn/courses/30/lessons/12917) 
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py) 
 [[완주하지못한선수]](./src/python/스킬테스트/level01/모의고사.py) 
@@ -60,3 +61,4 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[문자열내p와y의개수]](./src/python/스킬테스트/level01/문자열내p와y의개수.py)    
 
 [[문자열내림차순으로배치하기]](./src/python/스킬테스트/level01/문자열내림차순으로배치하기.py) 
+[[문자열다루기기본]](./src/python/스킬테스트/level01/문자열다루기기본.py) 
