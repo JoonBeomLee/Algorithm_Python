@@ -53,6 +53,7 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[문자열정수로바꾸기]](https://programmers.co.kr/learn/courses/30/lessons/12925) 
 [[시저암호]](https://programmers.co.kr/learn/courses/30/lessons/12926) 
 [[약수의합]](https://programmers.co.kr/learn/courses/30/lessons/12928)
+[[크레인인형뽑기게임]](https://programmers.co.kr/learn/courses/30/lessons/64061)  
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py) 
 [[완주하지못한선수]](./src/python/스킬테스트/level01/모의고사.py) 
@@ -76,3 +77,4 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[문자열정수로바꾸기]](./src/python/스킬테스트/level01/문자열정수로바꾸기.py) 
 [[시저암호]](./src/python/스킬테스트/level01/시저암호.py) 
 [[약수의합]](./src/python/스킬테스트/level01/약수의합.py)
+[[크레인인형뽑기게임]](./src/python/스킬테스트/level01/크레인인형뽑기게임.py)
