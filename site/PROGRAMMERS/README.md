@@ -57,7 +57,8 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[시저암호]](https://programmers.co.kr/learn/courses/30/lessons/12926)   
 
 [[약수의합]](https://programmers.co.kr/learn/courses/30/lessons/12928) 
-[[이상한문자만들기]](https://programmers.co.kr/learn/courses/30/lessons/12930)
+[[이상한문자만들기]](https://programmers.co.kr/learn/courses/30/lessons/12930) 
+[[자릿수더하기]](https://programmers.co.kr/learn/courses/30/lessons/12931)
  
 >   
 > 풀이: [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py) 
@@ -86,4 +87,5 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[시저암호]](./src/python/스킬테스트/level01/시저암호.py)   
 
 [[약수의합]](./src/python/스킬테스트/level01/약수의합.py)
-[[이상한문자만들기]](./src/python/스킬테스트/level01/이상한문자만들기.py)
+[[이상한문자만들기]](./src/python/스킬테스트/level01/이상한문자만들기.py) 
+[[자릿수더하기]](./src/python/스킬테스트/level01/자릿수더하기.py)
