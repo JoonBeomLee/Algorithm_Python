@@ -32,6 +32,7 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 
 1. [[skill_01]](https://programmers.co.kr/learn/challenges)
 > 문제:    
+   
 [[두개뽑아서더하기]](https://programmers.co.kr/learn/courses/30/lessons/68644) 
 [[크레인인형뽑기게임]](https://programmers.co.kr/learn/courses/30/lessons/64061) 
 [[완주하지못한선수]](https://programmers.co.kr/learn/courses/30/lessons/42576)   
@@ -65,8 +66,10 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[자릿수더하기]](https://programmers.co.kr/learn/courses/30/lessons/12931)   
 
 [[자연수뒤집어배열로만들기]](https://programmers.co.kr/learn/courses/30/lessons/12932)
+[[정수내림차순으로배치하기]](https://programmers.co.kr/learn/courses/30/lessons/12933)  
 >   
 > 풀이:    
+   
 [[두개뽑아서더하기]](./src/python/스킬테스트/level01/두개뽑아서더하기.py) 
 [[완주하지못한선수]](./src/python/스킬테스트/level01/모의고사.py) 
 [[크레인인형뽑기게임]](./src/python/스킬테스트/level01/크레인인형뽑기게임.py)   
@@ -100,3 +103,4 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[자릿수더하기]](./src/python/스킬테스트/level01/자릿수더하기.py)   
 
 [[자연수뒤집어배열로만들기]](./src/python/스킬테스트/level01/자연수뒤집어배열로만들기.py)
+[[정수내림차순으로배치하기]](./src/python/스킬테스트/level01/정수내림차순으로배치하기.py)
