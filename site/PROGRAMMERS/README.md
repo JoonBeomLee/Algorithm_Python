@@ -68,6 +68,8 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[자연수뒤집어배열로만들기]](https://programmers.co.kr/learn/courses/30/lessons/12932)
 [[정수내림차순으로배치하기]](https://programmers.co.kr/learn/courses/30/lessons/12933)
 [[정수제곱근판별]](https://programmers.co.kr/learn/courses/30/lessons/12934)   
+
+[[제일작은수제거하기]](https://programmers.co.kr/learn/courses/30/lessons/12935 )
 >   
 > 풀이:    
    
@@ -105,4 +107,6 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 
 [[자연수뒤집어배열로만들기]](./src/python/스킬테스트/level01/자연수뒤집어배열로만들기.py)
 [[정수내림차순으로배치하기]](./src/python/스킬테스트/level01/정수내림차순으로배치하기.py)
-[[정수제곱근판별]](./src/python/스킬테스트/level01/정수제곱근판별.py)
+[[정수제곱근판별]](./src/python/스킬테스트/level01/정수제곱근판별.py)   
+
+[[제일작은수제거하기]](./src/python/스킬테스트/level01/제일작은수제거하기.py)
