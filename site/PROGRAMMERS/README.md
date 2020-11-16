@@ -43,4 +43,4 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 2. [[skill_02]](https://programmers.co.kr/learn/challenges)
 문제 | 풀이 | 문제 | 풀이 | 문제 | 풀이   
 ---- | ---- | ---- | ---- | ---- | ---- 
-[[프린터]](https://programmers.co.kr/learn/courses/30/lessons/42587) | [[풀이]](./src/python/스킬테스트/level02/프린터.py) | [[124나라의숫자]](https://programmers.co.kr/learn/courses/30/lessons/12899) | [[풀이]](./src/python/스킬테스트/level02/124나라의숫자.py) | [[주식가격]](https://programmers.co.kr/learn/courses/30/lessons/42584)
+[[프린터]](https://programmers.co.kr/learn/courses/30/lessons/42587) | [[풀이]](./src/python/스킬테스트/level02/프린터.py) | [[124나라의숫자]](https://programmers.co.kr/learn/courses/30/lessons/12899) | [[풀이]](./src/python/스킬테스트/level02/124나라의숫자.py) | [[주식가격]](https://programmers.co.kr/learn/courses/30/lessons/42584) | [[풀이]](./src/python/스킬테스트/level02/주식가격.py)
