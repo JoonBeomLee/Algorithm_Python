@@ -41,7 +41,8 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[1차비밀지도]](https://programmers.co.kr/learn/courses/30/lessons/17681) | [[풀이]](./src/python/스킬테스트/level01/1차비밀지도.py) | [[실패율]](https://programmers.co.kr/learn/courses/30/lessons/42889) | [[풀이]](./src/python/스킬테스트/level01/실패율.py) | [[다트게임]](https://programmers.co.kr/learn/courses/30/lessons/17682) | [[풀이]](./src/python/스킬테스트/level01/다트게임.py)
 
 2. [[skill_02]](https://programmers.co.kr/learn/challenges)
+   
 문제 | 풀이 | 문제 | 풀이 | 문제 | 풀이   
 ---- | ---- | ---- | ---- | ---- | ---- 
 [[프린터]](https://programmers.co.kr/learn/courses/30/lessons/42587) | [[풀이]](./src/python/스킬테스트/level02/프린터.py) | [[124나라의숫자]](https://programmers.co.kr/learn/courses/30/lessons/12899) | [[풀이]](./src/python/스킬테스트/level02/124나라의숫자.py) | [[주식가격]](https://programmers.co.kr/learn/courses/30/lessons/42584) | [[풀이]](./src/python/스킬테스트/level02/주식가격.py)
-[[스킬트리]](https://programmers.co.kr/learn/courses/30/lessons/49993) | [[풀이]](./src/python/스킬테스트/level02/스킬트리.py)
+[[스킬트리]](https://programmers.co.kr/learn/courses/30/lessons/49993) | [[풀이]](./src/python/스킬테스트/level02/스킬트리.py) 
