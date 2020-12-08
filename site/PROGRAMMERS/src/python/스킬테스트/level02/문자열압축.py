@@ -26,5 +26,18 @@ def solution(s):
                 # 압축된만큼 count STR 로 출력
                 if count != 1:
                     zip_str.append(f'{count}{tg_str}')
+                # 1일 경우 (압축이 안됬을 경우)
+                # 대상 문자열 그대로 출력
+                else:
+                    zip_str.append(tg_str)
+                
+                # 문자열 반복 -> count ++
+                count = 1
+            
+        # 압축된 문자열의 길이를 list에 저장    
+        zip_list.append(len(''.join(zip_str)))
+    
+    # 후보들중 가장 길이가 짧은 문자열 길이 반환
+    answer = min(zip_list)
             
     return answer
