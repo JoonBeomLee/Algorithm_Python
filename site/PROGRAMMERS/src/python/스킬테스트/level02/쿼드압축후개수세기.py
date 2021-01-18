@@ -17,7 +17,7 @@ def zip_check(_map, h, w, size):
             if _map[h][w] != size: mergable = False
 
     if mergable:
-        check_map[tmp] += 1;
+        check_map[tmp] += 1
     else:
         size = int(size / 2)
         zip_check(_map, h, w, size)
