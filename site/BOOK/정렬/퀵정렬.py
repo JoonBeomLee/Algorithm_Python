@@ -33,6 +33,21 @@ def quick_sort(array, start, end):
     quick_sort(array, start, right - 1)
     quick_sort(array,right + 1, end)
 
+def quick_sort_version_python(array):
+    if len(array) <= 1: return array
+
+    pivot = array[0]    # pivot 은 첫 번째 원소
+    tail = array[:1]    # pivot 을 제외한 리스트
+
+    left_side = [x for x in tail if x <= pivot] # 분할된 왼족 부분
+    right_side = [x for x in tail if x > pivot] # 분할된 오른쪽 부분
+
+    return quick_sort_version_python(left_side) + [pivot] + quick_sort(right_side)
+
 # quick sort start
 quick_sort(array, 0, len(array) - 1)
 print(array)
+
+# python version quick sort
+print(quick_sort_version_python(array))
+
