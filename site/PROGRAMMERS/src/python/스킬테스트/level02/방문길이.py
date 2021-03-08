@@ -10,42 +10,47 @@ def solution(dirs):
     
     cnt = 1
     print("move pre : ", cur_pos)
-    visit.append(copy.copy(cur_pos))
     for d in dirs:
+        x, y = cur_pos[0], cur_pos[1]
+        
         if d == 'L':
             # 밖을 넘지 않는다면 이동
             if cur_pos[0] + dx[2] >= -5:
-                cur_pos[0] += dx[2]
-                cur_pos[1] += dy[2]
+                mx = cur_pos[0] + dx[2]
+                my = cur_pos[1] + dy[2]
             else: continue
             
         elif d == 'R':
             # 밖을 넘지 않는다면 이동
             if cur_pos[0] + dx[3] <= 5:
-                cur_pos[0] += dx[3]
-                cur_pos[1] += dy[3]
+                mx = cur_pos[0] + dx[3]
+                my = cur_pos[1] + dy[3]
             else: continue
                 
         elif d == 'U':
             # 밖을 넘지 않는다면 이동
             if cur_pos[1] + dy[0] <= 5:
-                cur_pos[0] += dx[0]
-                cur_pos[1] += dy[0]
+                mx = cur_pos[0] + dx[0]
+                my = cur_pos[1] + dy[0]
             else: continue
                 
         elif d == 'D':
             # 밖을 넘지 않는다면 이동
             if cur_pos[1] + dy[1] >= -5:
-                cur_pos[0] += dx[1]
-                cur_pos[1] += dy[1]
+                mx = cur_pos[0] + dx[1]
+                my = cur_pos[1] + dy[1]
             else: continue
         
-        tmp_pos = copy.copy(cur_pos)
-        tmp_pos.append(copy.copy(d))
+        cur_pos[0] = mx
+        cur_pos[1] = my       
         
-        print(cnt, d, " move post : ", tmp_pos)
-        if tmp_pos not in visit:
-            visit.append(copy.copy(tmp_pos))
+        tmp_go = copy.copy([x, y, mx, my])
+        tmp_back = copy.copy([mx, my, x, y])
+        
+        print(cnt, d, " move post : ", tmp_go)
+        if tmp_go not in visit:
+            visit.append(tmp_go)
+            visit.append(tmp_back)
         
         tmp_pos = []
         cnt += 1
@@ -53,4 +58,4 @@ def solution(dirs):
     print(visit)
     print(len(visit))
         
-    return len(visit) - 1
+    return len(visit) // 2
