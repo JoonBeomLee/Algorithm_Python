@@ -23,9 +23,6 @@ def remove_box(M, N, board):
                 if [m+1, n] not in remove: remove.append([m+1, n])
                 if [m+1, n+1] not in remove: remove.append([m+1, n+1])
                 
-                print(target, m, n)
-                print(remove)
-                
             #print(f"{board[m][n]}  ", end="")
     
     return remove
@@ -49,28 +46,23 @@ def fit_board(M, N, board, remove):
             
         # 당기기
         tmp_idx = 0
-        zero_count = 0
         zero_list = []
+        rst_list = []
         while True:
             # 전체 search 완료시 stop
             if tmp_idx > len(tmp) - 1: break
             
-            # 무한 loop 방지
-            if zero_count > len(tmp) - 1: break
-            
+            # zero 추가
             if tmp[tmp_idx] == "0":
-                # 무한 loop 방지
-                zero_count += 1
                 # 삭제
-                del tmp[tmp_idx]
-                # 뒤에 추가
-                zero_list.append("0")
+                zero_list.append(tmp_idx)
+            # 나머지값 추가    
             else:
-                # 다음 대상 search
-                tmp_idx += 1
+                rst_list.append(tmp[tmp_idx])
+            # 다음 대상 search    
+            tmp_idx += 1
         
-        # 적용
-        tmp = zero_list + tmp
+        tmp = zero_list + rst_list
         for m in range(M):
             board[m][n] = tmp[m]
         
@@ -95,16 +87,16 @@ def solution(m, n, board):
     
     # 블럭 제거 시작
     while True:
-        print("======== pre board ========= \n")
-        board_print(m, n, board)
+        #print("======== pre board ========= \n")
+        #board_print(m, n, board)
         remove = remove_box(m, n, board)
         
         # 삭제할 블럭 없을때 stop
         if len(remove) == 0: break
             
         r_blocks = fit_board(m, n, board, remove)
-        print("======== remove board ========= \n")
-        board_print(m, n, board)
+        #print("======== remove board ========= \n")
+        #board_print(m, n, board)
         
         # 삭제 블럭 개수 반영
         answer += r_blocks
