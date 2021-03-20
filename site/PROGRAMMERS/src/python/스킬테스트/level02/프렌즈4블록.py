@@ -10,17 +10,21 @@ def remove_box(M, N, board):
             
             target = board[m][n]
             right = board[m][n+1]
-            down = board[m+1][n+1]
+            down = board[m+1][n]
             dash = board[m+1][n+1]
             
             if target == "0": continue
             
             # 같은 block 판단
-            if target == right == down == dash:
+            if target == right and target == down and target == dash:
+                
                 if [m, n] not in remove: remove.append([m, n])
                 if [m, n+1] not in remove: remove.append([m, n+1])
                 if [m+1, n] not in remove: remove.append([m+1, n])
                 if [m+1, n+1] not in remove: remove.append([m+1, n+1])
+                
+                print(target, m, n)
+                print(remove)
                 
             #print(f"{board[m][n]}  ", end="")
     
@@ -30,22 +34,46 @@ def fit_board(M, N, board, remove):
     r_count = 0
     
     # 삭제 반영
-    for rm in remove:
+    for rm in remove:       
         board[rm[0]][rm[1]] = "0"
         # 제거 개수 카운트
         r_count += 1
-    
-    # 밑에 칸이 0일경우 한칸 내림
-    for m in range(M):
-        for n in range(N):
-            # 밑으로 내리지 못할 경우 pass
-            if m == M - 1 or board[m+1][n] != "0": continue
-                
-            # 내리기
-            board[m+1][n] = copy.copy(board[m][n])
-            # 기존거 -> 0
-            board[m][n] = "0"
-    
+            
+    # new down logic
+    # 가로 개수
+    for n in range(N):
+        # 세로 반환
+        tmp = []
+        for m in range(M):
+            tmp.append(board[m][n])
+            
+        # 당기기
+        tmp_idx = 0
+        zero_count = 0
+        zero_list = []
+        while True:
+            # 전체 search 완료시 stop
+            if tmp_idx > len(tmp) - 1: break
+            
+            # 무한 loop 방지
+            if zero_count > len(tmp) - 1: break
+            
+            if tmp[tmp_idx] == "0":
+                # 무한 loop 방지
+                zero_count += 1
+                # 삭제
+                del tmp[tmp_idx]
+                # 뒤에 추가
+                zero_list.append("0")
+            else:
+                # 다음 대상 search
+                tmp_idx += 1
+        
+        # 적용
+        tmp = zero_list + tmp
+        for m in range(M):
+            board[m][n] = tmp[m]
+        
     return r_count
     
     
