@@ -37,17 +37,13 @@ def solution(user_m, musicinfos):
         for idx in range(re_total_time):
             re_melody.append(melody_list[idx % len(melody_list)])
             
-        # melody 판단       
-        m_idx = 0        
-        for mld in re_melody:            
-            if user_m_list[m_idx] == mld: m_idx += 1
-            else: m_idx = 0
-                
-            if m_idx == len(user_m_list):                
+
+        # melody 판단         
+        for m_idx, mld in enumerate(re_melody):   
+            if re_melody[m_idx:m_idx+len(user_m_list)] == user_m_list:
                 answer.append([music_name, re_total_time])
-                break
+                break           
                 
-    
     re_answer = sorted(answer, key=lambda x : x[1], reverse=True)
     
     if len(re_answer) == 0: answer = "(None)"
