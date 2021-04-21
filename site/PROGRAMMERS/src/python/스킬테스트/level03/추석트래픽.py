@@ -33,7 +33,7 @@ def solution(lines):
         
         for b2_idx, b2 in enumerate(boundary):
             if b2_idx < b1_idx + 1: continue
-                    
+                     
             if b1[1] + 1000 > b2[0]: tmp_ans += 1
                 
         answer = tmp_ans if tmp_ans > answer else answer
