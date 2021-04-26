@@ -40,6 +40,7 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[x만큼간격이있는n개의숫자]](https://programmers.co.kr/learn/courses/30/lessons/12954) | [[풀이]](./src/python/스킬테스트/level01/x만큼간격이있는n개의숫자.py) | [[직사각형별찍기]](https://programmers.co.kr/learn/courses/30/lessons/12969) | [[풀이]](./src/python/스킬테스트/level01/직사각형별찍기.py) | [[예산]](https://programmers.co.kr/learn/courses/30/lessons/12982) | [[풀이]](./src/python/스킬테스트/level01/예산.py)
 [[1차비밀지도]](https://programmers.co.kr/learn/courses/30/lessons/17681) | [[풀이]](./src/python/스킬테스트/level01/1차비밀지도.py) | [[실패율]](https://programmers.co.kr/learn/courses/30/lessons/42889) | [[풀이]](./src/python/스킬테스트/level01/실패율.py) | [[다트게임]](https://programmers.co.kr/learn/courses/30/lessons/17682) | [[풀이]](./src/python/스킬테스트/level01/다트게임.py)   
 [[신규아이디추천]](https://programmers.co.kr/learn/courses/30/lessons/72410) | [[풀이]](./src/python/스킬테스트/level01/신규아이디추천.py) | [[내적]](https://programmers.co.kr/learn/courses/30/lessons/70128) | [[풀이]](./src/python/스킬테스트/level01/내적.py) |  [[음양더하기]](https://programmers.co.kr/learn/courses/30/lessons/76501) | [[풀이]](./src/python/스킬테스트/level01/음양더하기.py)   
+[[로또의최고순위와최저순위]](https://programmers.co.kr/learn/courses/30/lessons/77484) | [[풀이]](./src/python/스킬테스트/level01/로또의최고순위와최저순위.py)   
 
 2. [[skill_02]](https://programmers.co.kr/learn/challenges)
    
