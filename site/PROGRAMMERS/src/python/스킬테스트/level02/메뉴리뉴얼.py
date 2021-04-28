@@ -1,8 +1,6 @@
 from itertools import combinations
 
-def solution(orders, course):
-    answer = 0
-    
+def solution(orders, course):    
     # menu 조합
     combi = []
     for order in orders:
@@ -25,6 +23,22 @@ def solution(orders, course):
                     menu_list[tmp_comb] = 1
                     
         items = list(map(list, sorted(((v, k) for k, v in menu_list.items()), reverse=True)))
-        print(items)
+        
+        # skip empty list
+        if len(items) == 0: continue
+            
+        max_menu = items.pop(0)
+        
+        # skip 1 count menu
+        if max_menu[0] == 1: continue
+            
+        total_menu.append(max_menu[1])
+        
+        for item in items:
+            if max_menu[0] == item[0]:
+                total_menu.append(item[1])
+                
+    total_menu.sort()
+    print(total_menu)
     
-    return answer
+    return total_menu
