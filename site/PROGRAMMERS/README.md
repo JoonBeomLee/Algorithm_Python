@@ -64,7 +64,7 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 [[프렌즈4블록]](https://programmers.co.kr/learn/courses/30/lessons/17677) | [[풀이]](./src/python/스킬테스트/level02/프렌즈4블록.py) | [[캐시]](https://programmers.co.kr/learn/courses/30/lessons/17680) | [[풀이]](./src/python/스킬테스트/level02/캐시.py) | [[오픈채팅방]](https://programmers.co.kr/learn/courses/30/lessons/17680) | [[풀이]](./src/python/스킬테스트/level02/오픈채팅방.py)   
 [후보키]](https://programmers.co.kr/learn/courses/30/lessons/42890) | [[풀이]](./src/python/스킬테스트/level02/후보키.py) | [방금그곡]](https://programmers.co.kr/learn/courses/30/lessons/17683) | [[풀이]](./src/python/스킬테스트/level02/방금그곡.py) | [압축]](https://programmers.co.kr/learn/courses/30/lessons/17684) | [[풀이]](./src/python/스킬테스트/level02/압축.py)  
 [[n진수게임]](https://programmers.co.kr/learn/courses/30/lessons/17687) | [[풀이]](./src/python/스킬테스트/level02/n진수게임.py) | [[괄호회전하기]](https://programmers.co.kr/learn/courses/30/lessons/76502) | [[풀이]](./src/python/스킬테스트/level02/괄호회전하기.py) | [[메뉴리뉴얼]](https://programmers.co.kr/learn/courses/30/lessons/72411) | [[풀이]](./src/python/스킬테스트/level02/메뉴리뉴얼.py)   
-[[게임맵최단거리]](https://programmers.co.kr/learn/courses/30/lessons/1844) | [[풀이]](./src/python/스킬테스트/level02/게임맵최단거리.py)
+[[게임맵최단거리]](https://programmers.co.kr/learn/courses/30/lessons/1844) | [[풀이]](./src/python/스킬테스트/level02/게임맵최단거리.py) | [[행렬테두리회전하기]](https://programmers.co.kr/learn/courses/30/lessons/77485) | [[풀이]](./src/python/스킬테스트/level02/행렬테두리회전하기.py)
 
 2. [[skill_03]](https://programmers.co.kr/learn/challenges)
    
