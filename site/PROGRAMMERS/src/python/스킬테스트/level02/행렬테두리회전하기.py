@@ -24,7 +24,7 @@ def rotate_matrix_idx(st, ed):
     row, col = len(maps), len(maps[0])
     
     change_stack = []
-    change_dict = {}
+    value_stack = []
     
     up = []
     down = []
@@ -38,19 +38,19 @@ def rotate_matrix_idx(st, ed):
             
             # 위-가로
             if r == st[0] and (st[1] <= c <= ed[1]):
-                up.append([r, c])
+                up.append([r, c, val])
                             
             # 우-세로
             if c == ed[1] and (st[0] < r <= ed[0]):
-                right.append([r, c])
-                            
+                right.append([r, c, val])
+                
             # 아래-가로
             if r == ed[0] and (st[1] <= c < ed[1]):
-                down.append([r, c])
+                down.append([r, c, val])
                             
             # 좌-세로
             if c == st[1] and (st[0] < r < ed[0]):
-                left.append([r, c])
+                left.append([r, c, val])
                     
     down.reverse()
     left.reverse()
@@ -65,20 +65,24 @@ def rotate_matrix_idx(st, ed):
 def rotate_matrix(idx_list):
     global maps
     
-    tmp_stack = copy.deepcopy(idx_list)
     value_stack = []
     
-    for stack in tmp_stack:
+    # idx -> 데이터 전환
+    for stack in idx_list:
         value_stack.append(maps[stack[0]][stack[1]])
     
     # 1칸 전진
     value_stack.insert(0, value_stack.pop(-1))
     
-    # 전진한 데이터 적용
-    for stack in zip(tmp_stack, value_stack):        
+    # 전진한 데이터 적용, 최소값 찾기
+    min_value = value_stack[0]
+    for stack in zip(idx_list, value_stack):        
         maps[stack[0][0]][stack[0][1]] = stack[1]
         
-    return min(value_stack)
+        if min_value > stack[1]:
+            min_value = stack[1]
+        
+    return min_value
         
 
 def solution(rows, columns, queries):
