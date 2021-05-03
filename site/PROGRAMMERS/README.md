@@ -70,4 +70,4 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
    
 문제 | 풀이 | 문제 | 풀이 | 문제 | 풀이   
 ---- | ---- | ---- | ---- | ---- | ---- 
-[[추석트래픽]](https://programmers.co.kr/learn/courses/30/lessons/17676) | [[풀이]](./src/python/스킬테스트/level03/추석트래픽.py)
+[[추석트래픽]](https://programmers.co.kr/learn/courses/30/lessons/17676) | [[풀이]](./src/python/스킬테스트/level03/추석트래픽.py) | [[보석쇼핑]](https://programmers.co.kr/learn/courses/30/lessons/67258) | [[풀이]](./src/python/스킬테스트/level03/보석쇼핑.py)
