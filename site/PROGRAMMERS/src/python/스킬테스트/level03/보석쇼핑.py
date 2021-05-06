@@ -1,47 +1,38 @@
-import copy
-
-def solution(gems):   
-    seted_gems = list(set(gems))
-    gems_pack = []
-    pos_stack = []
+def solution(gems):
+    answer = []
+    gems_packs = {}
     
-    answer = [0, len(gems)-1]
-    answer_len = len(gems) - 1
+    st_idx, ed_idx = 0, 0
+    gems_len = len(gems) + 1
+    gems_sort_count = len(set(gems))
     
-    st_pos = 0
-    ed_pos = len(gems) - 1
-    
-    pos_stack.append([st_pos, ed_pos])
-    gems_pack = set(gems)
-    
-    while pos_stack:
-        # 확인할 위치
-        target_pos = pos_stack.pop()
-        gems_pack = set(gems[target_pos[0]:target_pos[1]+1])
+    # 마지막 보석까지
+    while ed_idx < len(gems):
         
-        # 조건 충족할 경우
-        if len(gems_pack) == len(seted_gems):           
+        # 뒷 부분 index 증가
+        if gems[ed_idx] not in gems_packs:
+            gems_packs[gems[ed_idx]] = 1
+        else:
+            gems_packs[gems[ed_idx]] += 1
             
-            #print("check")
-            #print(gems_pack)
-            #print(seted_gems)
-            #print(target_pos)
-            #print("\n\n")
-            
-            # 최소값 찾기
-            if answer_len > target_pos[1] - target_pos[0]:
-                #print("debug :: ",target_pos)
-                answer = [target_pos[0], target_pos[1]]
-                answer_len = target_pos[1] - target_pos[0]
-            
-            # 전체 탐색할경우 stop
-            if target_pos[0] + 1 > target_pos[1]: break
-            
-            # 앞에서 전진
-            pos_stack.append([target_pos[0] + 1, target_pos[1]])
-            # 뒤에서 후진
-            pos_stack.append([target_pos[0], target_pos[1] - 1])
-    
-    answer = [answer[0]+1, answer[1]+1]
-    
+        ed_idx += 1    
+        
+        # 모든 보석이 채워졌을 경우
+        # 최소 범위를 찾기위해
+        # 앞부분 증가하며 나감
+        if len(gems_packs) == gems_sort_count:
+            while st_idx < ed_idx:
+                if gems_packs[gems[st_idx]] > 1:
+                    gems_packs[gems[st_idx]] -= 1
+                    st_idx += 1
+                    
+                elif gems_len > ed_idx - st_idx:
+                    gems_len = ed_idx - st_idx
+                    answer = [st_idx + 1, ed_idx]
+
+                    break
+                
+                else: break
+                    
+                        
     return answer
