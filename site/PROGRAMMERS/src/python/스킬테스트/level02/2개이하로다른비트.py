@@ -17,11 +17,11 @@ def solution(numbers):
 
             first_zero = False
             
-            for b_num in range(len(bin_num)):
+            for b_num in range(len(bin_num) - 1, -1, -1):
                 #print(bin_num, b_num, bin_num[b_num])
                 
                 if first_zero == False and bin_num[b_num] == '0':
-                   #print(b_num)
+                    #print(b_num)
                     
                     bin_num[b_num] = '1'
                     bin_num[b_num + 1] = '0'
@@ -29,11 +29,11 @@ def solution(numbers):
                     first_zero = True
                     
                     
-            print(bin_num)
-                
-            
-            
-            #print("홀수", tmp_num, int(tmp_num, 2))
+            bin_str = ''.join(bin_num)
+            bin_num = int(bin_str, 2)
+            #print("홀수", bin_num, int(bin_str, 2))
+            answer.append(bin_num)
         
+    #print(answer)
     
     return answer
