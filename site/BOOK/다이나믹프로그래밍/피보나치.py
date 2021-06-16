@@ -21,4 +21,19 @@ def fibo(N):
     # 아직 계산하지 않은 문제라면 연산후 저장
     RAM[N] = fibo(N - 1) + fibo(N - 2)
     
-    return RAM{N}
+    return RAM[N]
+
+
+# 피보나치 - 호출 여부 확인
+CALL = [0] * 100
+
+def pibo(N):
+    print(f"f({N})", end = " ")
+
+    if N == 1 or N == 2: return 1
+
+    if CALL[N] != 0: return CALL[N]
+
+    CALL[N] = pibo(N - 1) + pibo(N - 2)
+
+    return CALL[N]
