@@ -72,4 +72,4 @@ LIFO, FIFO, push & pop! 스택과 큐를 이용해서 문제를 풀어보세요.
 문제 | 풀이 | 문제 | 풀이 | 문제 | 풀이   
 ---- | ---- | ---- | ---- | ---- | ---- 
 [[추석트래픽]](https://programmers.co.kr/learn/courses/30/lessons/17676) | [[풀이]](./src/python/스킬테스트/level03/추석트래픽.py) | [[보석쇼핑]](https://programmers.co.kr/learn/courses/30/lessons/67258) | [[풀이]](./src/python/스킬테스트/level03/보석쇼핑.py) | [[가장먼노드]](https://programmers.co.kr/learn/courses/30/lessons/49189) | [[풀이]](./src/python/스킬테스트/level03/가장먼노드.py)   
-[[입국심사]](https://programmers.co.kr/learn/courses/30/lessons/43238) | [[풀이]](./src/python/스킬테스트/level03/입국심사.py) 
+[[입국심사]](https://programmers.co.kr/learn/courses/30/lessons/43238) | [[풀이]](./src/python/스킬테스트/level03/입국심사.py) | [[N으로표현]](https://programmers.co.kr/learn/courses/30/lessons/42895?language=python3) | [[풀이]](./src/python/스킬테스트/level03/N으로표현.py) 
